@@ -25,7 +25,7 @@ No more manual Deployments per tier — just declare the desired state, and the 
 - Garbage collection when classes are removed
 - Full owner references for clean cleanup
 
-### Prerequisites
+## Prerequisites
 - go version v1.24.6+
 - docker version 17.03+.
 - kubectl version v1.11.3+.
