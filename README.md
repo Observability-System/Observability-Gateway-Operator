@@ -1,6 +1,10 @@
 # Observability Gateway Operator
 This repository defines the `ObservabilityGateway` CRD and its Kubernetes operator, offering a declarative way to provision and manage multi‑class OpenTelemetry ingestion gateways with priority‑aware collectors.
 
+<p align='center'>
+    <img src="Observability-Gateway-Operator-Icon.svg" alt="Observability Gateway Operator Logo">
+</p>
+
 ## Description
 Modern observability systems often need to handle telemetry data with different levels of importance: critical traces and metrics should get low-latency, high-availability treatment, while bulk or debug data can be processed with fewer resources.
 
